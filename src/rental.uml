@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Car.rental</OriginalElement>
+  <nodes>
+    <node x="0.0" y="185.5">Car.rental.Truck</node>
+    <node x="462.0" y="185.5">Car.rental.Coach</node>
+    <node x="217.0" y="174.0">Car.rental.Pickup</node>
+    <node x="0.0" y="386.0">Car.rental.Main</node>
+    <node x="268.5" y="0.0">Car.rental.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Car.rental.Coach" target="Car.rental.Car">
+      <point x="0.0" y="-72.0" />
+      <point x="549.5" y="149.0" />
+      <point x="370.16666666666663" y="149.0" />
+      <point x="40.66666666666663" y="62.0" />
+    </edge>
+    <edge source="Car.rental.Truck" target="Car.rental.Car">
+      <point x="0.0" y="-72.0" />
+      <point x="98.5" y="149.0" />
+      <point x="288.8333333333333" y="149.0" />
+      <point x="-40.666666666666686" y="62.0" />
+    </edge>
+    <edge source="Car.rental.Pickup" target="Car.rental.Car">
+      <point x="0.0" y="-83.5" />
+      <point x="0.0" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7905631659056316" x="749.8054813444538" y="146.2826338082403" />
+  <SelectedNodes>
+    <node>Car.rental.Car</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
